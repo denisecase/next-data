@@ -51,7 +51,7 @@ HomePage.getInitialProps = async ({ req, query }) => {
 
   try {
     const res = await fetch(pageRequest)
-    const json = await res.json()
+    const json = await res.status(200).json()
     return json
   }
   catch (error) {
