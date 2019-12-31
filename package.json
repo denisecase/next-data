@@ -1,0 +1,22 @@
+{
+  "name": "next-sql",
+  "version": "1.0.0",
+  "description": "Demo project to show how Next.js works with a relational database",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Denise Case",
+  "license": "MIT",
+  "repository": "https://github.com/denisecase/next-data",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^9.1.6",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "serverless-mysql": "^1.5.2",
+    "sql-template-strings": "^2.2.2"
+  }
+}
